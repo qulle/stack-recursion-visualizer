@@ -1,12 +1,16 @@
 # Stack Visualizer N! in Ada
-### A small program to visualize how a stack is used to solve factorial (n!) using recursion
+### A small program to visualize how a stack is used to solve n-factorial (n!) using recursion
 
 ## Screenshot
 ![Screenshot of the program solving 9!](images/stack-recursion.png?raw=true "Screenshot of the program solving 9!")
 
+# Author notes
+I wrote this program during my first year at the University back in 2017.
+
 ## Compiling
+I compiled using GNATMAKE 7.5.0
 ```
-gnatmake ./stack_recursion.adb
+$ gnatmake ./stack_recursion.adb
 ```
 
 ## Runtime
